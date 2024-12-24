@@ -1,8 +1,32 @@
 # React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+SAU My Friend Management Application
+แอปพลิเคชันนี้ถูกพัฒนาขึ้นมาเพื่อใช้จัดการข้อมูลเพื่อน โดยผู้ใช้งานสามารถ เพิ่ม, แก้ไข, ลบ และ แสดงข้อมูลเพื่อน ได้อย่างสะดวกผ่าน UI ที่ออกแบบมาให้ใช้งานง่าย พร้อมทั้งเชื่อมต่อกับ RESTful API เพื่อดึงและจัดการข้อมูลที่เก็บอยู่ในฐานข้อมูล
 
-Currently, two official plugins are available:
+คุณสมบัติของแอปพลิเคชัน
+ดึงข้อมูลเพื่อน (GET):
+ดึงข้อมูลเพื่อนจากฐานข้อมูลและแสดงในหน้าจอ พร้อมทั้งแสดงข้อมูลในฟิลด์ TextField เพื่อให้สามารถแก้ไขได้
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+แก้ไขข้อมูลเพื่อน (PUT):
+ผู้ใช้สามารถแก้ไขข้อมูลเพื่อน เช่น ชื่อ-นามสกุล, เบอร์โทร, อายุ และสาขาวิชา เมื่อกดปุ่ม Save ระบบจะอัปเดตข้อมูลไปยังฐานข้อมูลผ่าน API
+
+ระบบล็อกอินผู้ใช้:
+มีระบบล็อกอินที่ช่วยให้แต่ละผู้ใช้สามารถเข้าถึงข้อมูลเฉพาะของตนเอง (ดึงข้อมูลจาก localStorage)
+
+ระบบ Logout:
+ผู้ใช้สามารถออกจากระบบได้ ซึ่งจะลบข้อมูลใน localStorage และนำผู้ใช้กลับไปยังหน้าล็อกอิน
+
+ฟอร์มการแก้ไขข้อมูลเพื่อน:
+ใช้ TextField จาก Material-UI พร้อมการกำหนดค่าที่จำเป็น เช่น required และ label เพื่อแสดงข้อมูลอย่างชัดเจน
+
+เทคโนโลยีที่ใช้
+Frontend: React.js
+
+Material-UI (MUI): ใช้สำหรับการออกแบบ UI
+React Router: ใช้สำหรับการจัดการการนำทางในแอปพลิเคชัน
+Backend: Node.js + Express.js
+
+RESTful API สำหรับการจัดการข้อมูลเพื่อนในฐานข้อมูล
+Database: MongoDB
+
+ใช้เก็บข้อมูลเพื่อน เช่น ชื่อ, เบอร์โทร, อายุ และสาขาวิชา
