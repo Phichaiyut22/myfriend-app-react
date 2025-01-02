@@ -27,6 +27,36 @@ React Router: ใช้สำหรับการจัดการการน
 Backend: Node.js + Express.js
 
 RESTful API สำหรับการจัดการข้อมูลเพื่อนในฐานข้อมูล
-Database: MongoDB
+Database: MySQL
 
 ใช้เก็บข้อมูลเพื่อน เช่น ชื่อ, เบอร์โทร, อายุ และสาขาวิชา
+
+![image](https://github.com/user-attachments/assets/8ab90c3b-30fd-4b35-afed-7a9a9b3ae766)
+
+
+
+![image](https://github.com/user-attachments/assets/224a9cea-00da-469a-ba79-de214197d5fc)
+
+
+
+![image](https://github.com/user-attachments/assets/0e061bbe-17b9-4ea2-980d-8e9b5e26365d)
+
+
+
+![image](https://github.com/user-attachments/assets/02ba9086-edd7-4cfd-96d7-cfc41e2dfaa1)
+
+
+
+![image](https://github.com/user-attachments/assets/fe23f81f-634a-47b9-9abf-8a523e3eeb5b)
+
+
+
+![image](https://github.com/user-attachments/assets/c5d773e7-5a27-423d-8775-a67f09325636)
+
+
+
+
+
+
+
+
